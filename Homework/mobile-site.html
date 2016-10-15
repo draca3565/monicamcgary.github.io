@@ -5,35 +5,41 @@
         <meta charset="utf-8">
         <title>Franklin Mobile</title>
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" type="text/css" href="CSS Files/pscreen.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="CSS Files/mobile.css" media="screen">
     </head>
 
     <body>
         <div id="wrapper">
             <header>
-                <h1>CIT 230</h1>
+                <h1>Weather</h1>
             </header>
             <nav>
-                <p><a href = "../index.html" > Navigation </a> </p>
+                <ul class = "Nav">
+                    <li class = "page"><a href = "../index.html" > Home </a></li>
+                    <li class = "page"> <a href = "">Franklin</a></li>
+                <li class = "page"> <a href = "">Greenville</a></li>
+                <li class = "page"> <a href = " ">Springville</a></li>
+                </ul>
             </nav>
             <main>
-                <h1>Practice Document</h1>
-                <p>We are practicing with images and paths to ensure we know how to do them.</p>
+                <h1>Franklin, Idaho, 83237</h1>
 
-                <!--Put the image in the img element below-->
+                <h2> Today's Weather</h2>
+                <div id="tWeather">
                 <figure>
-                    <img alt="practice" src="images/sux.jpg">
+                    <img alt="sunny" src="images/Sunny.png">
                 </figure>
-
+                <p class = "Today">Today's High 90 degrees</p>
+                <p class ="Today">Today's low 66 degrees</p>
+                <p class = "Today">Chance of precipitation 0%</p>
+                <p class = "Today"> Wind speed 1-5 mph, direction Southwest</p>
+                </div>
             </main>
             <footer>
-                <ul>
+                <ul class ="footer">
                     <li>&copy;2016</li>
-                    <li>
-                        Monica McGary
-                    </li>
-                    <li>Last Updated: 10/3/2016
-                    </li>
+                    <li>Monica McGary</li>
+                    <li>Last Updated: 10/3/2016</li>
                 </ul>
                 <p> </p>
             </footer>

@@ -1,0 +1,43 @@
+body{
+    background-color: lightgray;
+}
+
+header{
+    background-image: url(../images/header.jpg);
+        padding: 12px;
+    text-align: center;
+}
+.Nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 85px;
+    width: 100%;
+}
+
+.page {
+    float: left;
+}
+
+.page a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.page a:hover {
+    background-color: #111;
+}
+img {
+    display: inline-block;
+    margin: auto;
+    width: 40%;
+}
+
+
+
