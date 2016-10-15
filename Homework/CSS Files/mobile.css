@@ -38,6 +38,11 @@ img {
     margin: auto;
     width: 40%;
 }
-
+.Ad {
+    display: block;
+    margin:auto;
+    width: 80%;
+    align-self: right;
+}
 
 
