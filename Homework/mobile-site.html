@@ -1,70 +1,118 @@
 <!doctype html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>Franklin Mobile</title>
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" type="text/css" href="CSS/mobile.css" media="screen">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title>Franklin Weather</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="CSS/mobile.css" media="screen">
+</head>
 
-    <body>
-        <div id="wrapper">
-            <header>
-                <h1>Weather</h1>
-            </header>
-            <nav>
-                <ul class = "Nav">
-                    <li class = "page"><a href = "../index.html" > Home </a></li>
-                    <li class = "page"> <a href = "">Franklin</a></li>
-                <li class = "page"> <a href = "">Greenville</a></li>
-                <li class = "page"> <a href = " ">Springville</a></li>
-                </ul>
-            </nav>
-            <main>
-                <h1>Franklin, Idaho, 83237</h1>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Weather</h1>
+        </header>
+        <nav>
+            <ul class="Nav">
+                <li class="page"><a href="../index.html"> Home </a></li>
+                <li class="page"> <a href="">Franklin</a></li>
+                <li class="page"> <a href="">Greenville</a></li>
+                <li class="page"> <a href=" ">Springville</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Franklin, Idaho, 83237</h1>
 
-                <h2> Today's Weather</h2>
-                <div id="tWeather">
-                <figure>
-                    <img alt="sunny" src="images/Sunny.png">
-                </figure>
-                <p class = "Today">Today's High 90 degrees</p>
-                <p class ="Today">Today's low 66 degrees</p>
-                <p class = "Today">Chance of precipitation 0%</p>
-                <p class = "Today"> Wind speed 1-5 mph, direction Southwest</p>
-                </div>
-                <div id="hourly">
-                <h1> Hourly temperatures to come</h1>
-                </div>
-                <div id = "ad">
-                <figure class = "Ad">
-                    <img alt="ad" src="images/you.png">
+            <h2> Today's Weather</h2>
+            <div id="tWeather">
+                <section id="tweather">
+                    <figure>
+                        <img alt="sunny" src="images/Sunny.png">
                     </figure>
-                </div>
-                <div id ="Uplift">
-                <h1> Uplifting Video</h1>
-                    <iframe width ="300" height="250" src="https://www.youtube.com/embed/XGSy3_Czz8kI"></iframe>
+                    <p class="Today">Today's High 90 degrees</p>
+                    <p class="Today">Today's low 66 degrees</p>
+                    <p class="Today">Chance of precipitation 0%</p>
+                    <p class="Today"> Wind speed 1-5 mph, direction Southwest</p>
+                </section>
+            </div>
+            <h3> Hourly Temperatures</h3>
+            <div class="hour">
+                <section id="hourly">
 
-            <h2>Weekly Events</h2>
-            <ol>
-            <li> Monday: FHE at the corn maze</li>
-            <li>Tuesday: Family game night at city hall</li>
-            <li> Wednesday: Funeral </li>
-            <li> Friday: School dance at 6pm</li></ol>
+                    <p>12 AM 67 degrees</p>
+                    <p> 1 AM 67 degrees</p>
+                    <p> 2 AM 69 degrees</p>
+                    <p> 3 AM 69 degrees</p>
+                    <p>4 AM 69 degrees</p>
+                    <p> 5 AM 70 degrees</p>
+                    <p> 6 AM 69 degrees</p>
+                    <p> 7 AM 72 degrees</p>
+                    <p> 8 AM 74 degrees</p>
+                    <p> 9 AM 77 degrees</p>
+                    <p> 10 AM 79 degrees</p>
+                    <p> 11 AM 81 degrees</p>
+                    <p> 12 PM 84 degrees</p>
+                    <p> 1 PM 86 degrees</p>
+                    <p> 2 PM 88 degrees</p>
+                    <p> 3 PM 90 degrees</p>
+                    <p> 4 PM 90 degrees</p>
+                    <p> 5 PM 85 degrees</p>
+                    <p> 6 PM 83 degrees</p>
+                    <p> 7 PM 79 degrees</p>
+                    <p> 8 PM 74 degrees</p>
+                    <p> 9 PM 70 degrees</p>
+                    <p> 10 PM 68 degrees</p>
+                    <p> 11 PM 66 degrees</p>
+                </section>
+            </div>
+
+            <div id="uplift">
+                <article>
+                    <h1> Uplifting Video</h1>
+                    <iframe width=75% height= 75% src="https://www.youtube.com/embed/XGSy3_Czz8kI"></iframe>
+
+                    <h2>Weekly Events</h2>
+                    <ol>
+                        <li> Monday: FHE at the corn maze</li>
+                        <li>Tuesday: Family game night at city hall</li>
+                        <li> Wednesday: Funeral </li>
+                        <li> Friday: School dance at 6pm</li>
+                    </ol>
+                </article>
+            </div>
+
+        </main>
+        <aside id="ads">
+
+            <figure id="ebay">
+                <img alt="ebay" src="ebaylogo.jpg" width="200px" height="150px">
+            </figure>
+
+        </aside>
+        <div>
+            <figure>
+            <img alt="tablet"src="images/TabletM.jpg" width="200" height="150">
+            </figure>
+            <figure>
+                <img alt="browser"src="images/Browser.jpg" width="200" height="150">
+            </figure>
+            <figure>
+                <img alt="mobile" src="images/revisephone.jpg">
+
+            </figure>
         </div>
-            </main>
-            <footer>
-                <ul>
-                    <li>&copy;2016</li>
-                    <li>Monica McGary</li>
-                    <li>Last Updated: 10/3/2016</li>
-                </ul>
-                <p> </p>
-                <figure>
-                <img alt="mobile" src="images/revisephone.jpg"></figure>
-            </footer>
-        </div>
-    </body>
+        <footer id="page-footer">
+
+            <ul>
+                <li>&copy;2016</li>
+                <li>Monica McGary</li>
+                <li>Last Updated: 10/22/2016</li>
+            </ul>
+            <p> </p>
+
+        </footer>
+    </div>
+</body>
 
 </html>

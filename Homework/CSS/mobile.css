@@ -38,10 +38,207 @@ img {
     margin: auto;
     width: 40%;
 }
-.Ad {
-    display: block;
-    margin:auto;
-    width: 80%;
+#ads{
+        background-image: url(../images/you.png);
+    float: left;
+    width: 20%;
+    padding: lem;
 }
+#hourly{
+    display: none;
+}
+h3 {
+    display: none;
+}
+@media screen and (min-width: 450px){
+    body{
+        background-color: lightgray;
+    }
 
+    header{
+        background-image: url(../images/header.jpg);
+        padding: 12px;
+        text-align: center;
+    }
+    .Nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position:inherit;
+    }
+    .tweather {
+        float: right;
+        align-content: center;
+        width: auto;
+    }
+    .page {
+        float: left;
+    }
+
+    .page a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .page a:hover {
+        background-color: #111;
+    }
+    img {
+        display: inline-block;
+        margin: auto;
+        width: 40%;
+    }
+    #ads {
+        background-image: url(../images/you.png);
+       position: absolute;
+        top: 450px;
+        right: 75px;
+        width: 30%;
+        height: 30%;
+        padding: lem;
+        margin: auto;
+    }
+    #ebay{
+        display: none;
+    }
+    h3 {
+        position:absolute;
+        top: 200px;
+        right: 150px;
+        text-align:center;
+        display: inherit;
+
+    }
+    #hourly{
+        width: 150px;
+        height: 100px;
+        overflow: auto;
+        display: block;
+        width: 40%;
+        float: right;
+        margin: lem;
+        padding: lem;
+       position:absolute;
+        right: 100px;
+        top: 300px;
+    }
+    main{
+        width: 80%;
+        float: left;
+        margin: lem;
+        padding: lem;
+    }
+    #uplift{
+        display:inline-block;
+    }
+    #page-footer{
+        clear: left;
+
+    }
+}
+@media screen and (min-width: 950px){
+
+        body{
+            background-color: lightgray;
+        }
+
+        header{
+            background-image: url(../images/header.jpg);
+            padding: 12px;
+            text-align: center;
+        }
+        .Nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position:inherit;
+        }
+        .tweather {
+            float: right;
+            align-content: center;
+            width: auto;
+        }
+        .page {
+            float: left;
+        }
+
+        .page a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .page a:hover {
+            background-color: #111;
+        }
+        img {
+            display: inline-block;
+            margin: auto;
+            width: 40%;
+        }
+        #ads {
+            background-image: url(../images/you.png);
+            position: absolute;
+            top: 450px;
+            right: 75px;
+            width: 30%;
+            height: 30%;
+            padding: lem;
+            margin: 0;
+
+        }
+        #ebay {
+            display: block;
+            position: absolute;
+            top: 450px;
+            right: 75px;
+            padding: lem;
+            width: 200px;
+            height: 150px;
+            float: right;
+        }
+        h3 {
+            position:absolute;
+            top: 200px;
+            right: 150px;
+            text-align:center;
+            display: inherit;
+
+        }
+        #hourly{
+            width: 150px;
+            height: 100px;
+            overflow: auto;
+            display: block;
+            width: 40%;
+            float: right;
+            margin: lem;
+            padding: lem;
+            position:absolute;
+            right: 100px;
+            top: 300px;
+        }
+        main{
+            width: 80%;
+            float: left;
+            margin: lem;
+            padding: lem;
+        }
+        #uplift{
+            display:inline-block;
+        }
+        #page-footer{
+            clear: left;
+
+        }
+    }
 
