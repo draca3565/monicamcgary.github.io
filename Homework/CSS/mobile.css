@@ -42,7 +42,7 @@ img {
         background-image: url(../images/you.png);
     float: left;
     width: 20%;
-    padding: lem;
+
 }
 #hourly{
     display: none;
@@ -100,7 +100,6 @@ h3 {
         right: 75px;
         width: 30%;
         height: 30%;
-        padding: lem;
         margin: auto;
     }
     #ebay{
@@ -121,8 +120,6 @@ h3 {
         display: block;
         width: 40%;
         float: right;
-        margin: lem;
-        padding: lem;
        position:absolute;
         right: 100px;
         top: 300px;
@@ -130,8 +127,7 @@ h3 {
     main{
         width: 80%;
         float: left;
-        margin: lem;
-        padding: lem;
+
     }
     #uplift{
         display:inline-block;
@@ -192,7 +188,6 @@ h3 {
             right: 75px;
             width: 30%;
             height: 30%;
-            padding: lem;
             margin: 0;
 
         }
@@ -201,7 +196,6 @@ h3 {
             position: absolute;
             top: 450px;
             right: 75px;
-            padding: lem;
             width: 200px;
             height: 150px;
             float: right;
@@ -221,8 +215,6 @@ h3 {
             display: block;
             width: 40%;
             float: right;
-            margin: lem;
-            padding: lem;
             position:absolute;
             right: 100px;
             top: 300px;
@@ -230,8 +222,6 @@ h3 {
         main{
             width: 80%;
             float: left;
-            margin: lem;
-            padding: lem;
         }
         #uplift{
             display:inline-block;
