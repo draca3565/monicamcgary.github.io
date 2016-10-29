@@ -6,6 +6,7 @@ header{
     background-image: url(../images/header.jpg);
         padding: 12px;
     text-align: center;
+    width: 100%;
 }
 .Nav {
     list-style-type: none;
@@ -33,17 +34,182 @@ header{
 .page a:hover {
     background-color: #111;
 }
+#wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#hourly{
+    width: 150px;
+    height: 100px;
+    overflow: auto;
+}
 img {
-    display: inline-block;
+    display: inline-flex;
     margin: auto;
-    width: 40%;
+    width: 0%;
 }
 #ads{
-        background-image: url(../images/you.png);
+    background-image: url(../images/you.png);
     float: left;
     width: 20%;
 
 }
+@media screen and (min-width: 450px){
+    body{
+        background-color: lightgray;
+    }
+
+    header{
+        background-image: url(../images/header.jpg);
+        padding: 12px;
+        text-align: center;
+        width: 100%;
+    }
+    .Nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 100%;
+        background-color: #333;
+        display: inline-flex;
+        position:absolute;
+
+    }
+    .page a {
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .page a:hover {
+        background-color: #111;
+    }
+    main{
+        width: 60%;
+    }
+    h3 {
+        float: right;
+       width: auto;
+        position: absolute;
+        top: 250px;
+        left: 500px;
+    }
+    #hourly{
+        width: 150px;
+        height: 100px;
+        overflow: auto;
+        position: absolute;
+        top: 290px;
+        left: 500px;
+    }
+
+
+    #tweather {
+        align-content: center;
+        width: 40%;
+    }
+    img {
+        width: 50%;
+    }
+
+
+
+    article{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+
+    }
+    aside{
+        width: 20%;
+    }
+    #page-footer{
+        clear: left;
+
+    }
+
+}
+@media screen and (min-width: 850px){
+    body{
+        background-color: lightgray;
+    }
+
+    header{
+        background-image: url(../images/header.jpg);
+        padding: 12px;
+        text-align: center;
+        width: 100%;
+    }
+    .Nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 100%;
+        background-color: #333;
+        display: inline-flex;
+        position:absolute;
+
+    }
+    .page a {
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .page a:hover {
+        background-color: #111;
+    }
+    main{
+        width: 60%;
+    }
+    h3 {
+        float: right;
+        width: auto;
+        position: absolute;
+        top: 250px;
+        left: 500px;
+    }
+    #hourly{
+        width: 150px;
+        height: 100px;
+        overflow: auto;
+        position: absolute;
+        top: 290px;
+        left: 500px;
+    }
+
+
+    #tweather {
+        align-content: center;
+        width: 40%;
+    }
+    img {
+        width: 50%;
+    }
+
+
+
+    article{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+
+    }
+    aside{
+        width: 20%;
+    }
+
+    #page-footer{
+        display: flex;
+        align-self:flex-end;
+    }
+}
+/*
 #hourly{
     display: none;
 }
@@ -232,3 +398,4 @@ h3 {
         }
     }
 
+*/
