@@ -1,0 +1,11 @@
+
+header{
+    <h1> Weather</h1>
+    <nav> <ul class="Nav">
+<li class="page"><a href="../index.html"> Home </a></li>
+<li class="page"> <a href="mobile-site.html">Franklin</a></li>
+<li class="page"> <a href="greenville.html">Greenville</a></li>
+<li class="page"> <a href=" ">Springville</a></li>
+</ul>
+</nav>
+}
