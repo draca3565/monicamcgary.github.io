@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Search Weather</title>
+<meta name="viewport" content="width=device-width">
+</head>
+<!-- *********************************************
+* Who Did You Collaborate With On This Activity?
+* 1.
+* 2.
+* 3.
+* 4.
+* 5.
+* ******************************************** -->
+
+<body>
+
+    <form method="get" action="http://autocomplete.wunderground.com/aq" id="searchform">
+        <input type="search" name="query" id="query">
+        <input type="submit" name="submit" value="Search" id="send">
+    </form>
+
+    <section id="searchResults">
+        <h2>Search results</h2>
+    </section>
+
+<section id="weatherContainer">
+    <h1 id="cityDisplay"></h1>
+    </section>
+
+<footer id="page-footer">
+
+<small>Last updated: 11/28/2016 </small>
+</footer>
+
+    <script src="../jsonweather-html/scripts/jquery-3.0.0.min.js"></script>
+    <script src="javascript/search.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+</body>
+
+</html>

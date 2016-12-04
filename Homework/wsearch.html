@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- *********************************************
+* Who Did You Collaborate With On This Assessment?
+* 1.Brett
+* 2. Sam
+* 3.
+* 4.
+* 5.
+* ******************************************** -->
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="CSS/mobile.css" media="screen">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="page-header"></header>
+        <nav id="page-nav">
+            <noscript>Javascript is nor enabled. For navigation visit the <a href="sitemap.html"> Site Map </a></noscript>
+        </nav>
+        <div>
+            <form method="get" action="http://autocomplete.wunderground.com/aq" id="srchfrm">
+                <input type="search" name="query" id="query">
+                <input type="submit" name="submit" value="Search" id="send">
+            </form>
+        </div>
+        <div>
+            <h1 id="currentCity"></h1></div>
+
+        <section id="searchResults">
+        </section>
+
+        <main>
+            <section class="summary">
+                <div><span id="currentTemp"></span>&deg;<sup>F</sup></div>
+            </section>
+            <section class="detail">
+                <div id="highLow"><span id="celsius"></span> &deg;C
+                    <br><span id="summaryDescription"></span></div>
+                <div><span id="windSpeed"></span> mph <span id="windDir"></span>
+                    <br><span id="rainInch"></span>in Rain</div>
+            </section>
+
+        </main>
+    </div>
+    <footer id="page-footer"></footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="javascript/modules.js"></script>
+    <script scr="javascript/wsearch.js"></script>
+
+</body>
+
+</html>
