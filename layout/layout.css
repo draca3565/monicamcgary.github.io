@@ -112,31 +112,116 @@ font: 20px "arial", times, serif;
 margin: 0;
 padding: 0;
 }
-/*@media screen and (min-width: 600px){
-#page-header{
-width: 100%;
-text-align: center;
-}
-#page-nav{
-float: left;
-width: 30%;
-padding: lem;
+@media screen and (min-width: 600px){
+    html *{
+        box-sizing: border-box;
+    }
+    .page {
+        float: left;
+    }
 
-}
-main{
-width: 40%;
-float: left;
-margin: lem;
-padding: lem;
-}
-#page-aside{
-float: left;
-width: 20%;
-padding: lem;
-}
-#page-footer{
-clear: left;
-}
-}
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color:aliceblue;
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
 
-*/
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover, .offcanvas a:focus{
+        color:crimson;
+    }
+
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    .click {
+        font-size: 24px;
+        color: darkred;
+        width: 80%;
+    }
+    .click a:hover {
+        cursor: pointer;
+        color:black;
+    }
+
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+        background-color: cornsilk;
+        transition: margin-left .5s;
+        padding: 20px;
+    }
+    *:before,
+    *:after{
+        box-sizing: border-box;
+    }
+    #wrapper{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    #page-header{
+        width: 100%;
+        font-style: oblique;
+        text-align: center;
+        text-decoration: overline;
+        background-image: url(../images/drag.png), url(../images/drag.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: left, right;
+    }
+    .row{
+        display:flex;
+
+    }
+    span{
+        text-align: center;
+        width: 18%;
+        padding: 20px;
+    }
+    video {
+        display: inline-flex;
+        width: 75%;
+    }
+
+    main{
+        width: 50%;
+        padding: 20px;
+    }
+    h1{
+        text-align: center;
+    }
+    img {
+        width: 60%;
+    }
+    #page-aside{
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+    }
+
+    body{
+        font: 20px "arial", times, serif;
+        margin: 0;
+        padding: 0;
